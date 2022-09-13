@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/edge_detector.vhd"
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/keyboard_ctrl.vhd"
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/convert_to_binary.vhd"
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/binary_to_sg.vhd"
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/sync_keyboard.vhd"
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/convert_scancode.vhd"
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/keyboard_top.vhd"
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/tb_pkg.vhd"
+vhdl xil_defaultlib  "//puma.student.lth.se/ma4444sl-s/Downloads/tb_keyboard.vhd"
+
+# Do not sort compile order
+nosort
