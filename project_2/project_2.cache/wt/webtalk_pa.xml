@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Sep 13 17:02:18 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="7a9db714cd23495784c8e73ad822a234" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="OpenProject" value="2" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="5" type="JavaHandler"/>
+<property name="SimulationRun" value="10" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="6" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, simulation_live_run_for_time" value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, simulation_relaunch" value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, counter[3:0] ; 0 ; Array, 6, counter[3:0], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, data[10:0] ; UUU ; Array, 7, data[10:0], 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, edge_found ; 0 ; Logic, 2, edge_found, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, scan_code_out[7:0] ; 00 ; Array, 5, scan_code_out[7:0], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, serial_data ; 0 ; Logic, 3, serial_data, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, convert_scancode_inst ; convert_scancode(convert_scancode_arch" value="5" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, edge_detector_inst ; edge_detector(edge_detector_arch" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, keyboard_ctrl_inst ; keyboard_ctrl(keyboard_ctrl_arch" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, keyboard_top_inst ; keyboard_top(keyboard_top_arch" value="4" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 40, -135" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, counter[3:0]], 13" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, counter[3:0]], 13, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, data[10:0], [10]], 11, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, data[10:0]], 10" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, data[10:0]], 25, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, edge_found], 10, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, scan_code_out[7:0]], 12" value="1" type="GuiResourceData"/>
+<property name="edge_detector.vhd, 162, 327" value="1" type="GuiResourceData"/>
+<property name="edge_detector.vhd, 398, 563" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 125, 520" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 128, 536" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 135, 539" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 153, 360" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 156, 553" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 156, 553, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 166, 486" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 166, 486, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 174, 519" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 174, 519, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 183, 82" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 183, 82, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 187, 336" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 220, 213" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 229, 502" value="2" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 230, 455" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 230, 455, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 230, 536" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 24, 553" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 241, 222" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 243, 452" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 251, 602" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 264, 77" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 264, 77, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 27, 313" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 28, 569" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 3, 449" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 30, 415" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 323, 535" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 327, 73" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 327, 73, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 329, 551" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 330, 552" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 336, 558" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 35, 569" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 49, 573" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 50, 363" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 527, 369" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 55, 427" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 56, 334" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 56, 402" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 62, 370" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 71, 399" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 71, 399, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 77, 539" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 83, 353" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 83, 383" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 85, 616" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 86, 550" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 87, 585" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 90, 401" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 97, 546" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 99, 488" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 99, 488, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 99, 552" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="9" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="4" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
