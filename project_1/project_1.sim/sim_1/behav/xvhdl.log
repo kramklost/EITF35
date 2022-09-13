@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/vhdl/src/sequence_detector_moore.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sequence_detector_moore
+INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/vhdl/src/sequence_detector_mealy.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sequence_detector_mealy
+INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/vhdl/src/par2ser.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity par2ser
+INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/vhdl/src/stimulus_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimulus_generator
+INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/vhdl/src/sequence_detector_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sequence_detector_tb

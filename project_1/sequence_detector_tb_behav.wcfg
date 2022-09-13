@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sequence_detector_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="sequence_detector_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3480000001fs"></ZoomEndTime>
+      <Cursor1Time time="401000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/sequence_detector_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/bit_stream" type="array">
+      <obj_property name="ElementShortName">bit_stream[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_stream[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/data_serial" type="logic">
+      <obj_property name="ElementShortName">data_serial</obj_property>
+      <obj_property name="ObjectShortName">data_serial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/data_valid" type="logic">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/moore_detected" type="logic">
+      <obj_property name="ElementShortName">moore_detected</obj_property>
+      <obj_property name="ObjectShortName">moore_detected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/mealy_detected" type="logic">
+      <obj_property name="ElementShortName">mealy_detected</obj_property>
+      <obj_property name="ObjectShortName">mealy_detected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/moore_count" type="other">
+      <obj_property name="ElementShortName">moore_count</obj_property>
+      <obj_property name="ObjectShortName">moore_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/mealy_count" type="other">
+      <obj_property name="ElementShortName">mealy_count</obj_property>
+      <obj_property name="ObjectShortName">mealy_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sequence_detector_tb/RESET_STOP" type="other">
+      <obj_property name="ElementShortName">RESET_STOP</obj_property>
+      <obj_property name="ObjectShortName">RESET_STOP</obj_property>
+   </wvobject>
+</wave_config>
