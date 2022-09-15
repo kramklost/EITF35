@@ -3,9 +3,9 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Tue Sep 13 17:02:18 2022">
+<application name="pa" timeStamp="Thu Sep 15 17:04:48 2022">
 <section name="Project Information" visible="false">
-<property name="ProjectID" value="7a9db714cd23495784c8e73ad822a234" type="ProjectID"/>
+<property name="ProjectID" value="6abf3504cafa413386548919fa790feb" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
@@ -17,99 +17,254 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
-<property name="OpenProject" value="2" type="JavaHandler"/>
-<property name="SimulationRelaunch" value="5" type="JavaHandler"/>
-<property name="SimulationRun" value="10" type="JavaHandler"/>
-<property name="SimulationRunForTime" value="6" type="JavaHandler"/>
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="SimulationClose" value="2" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="3" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="4" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="4" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
+<property name="BACK,  Back" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="5" type="GuiResourceData"/>
+<property name="NEXT, Next " value="12" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, Add Files" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="4" type="GuiResourceData"/>
 <property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, simulation_live_run_for_time" value="4" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, simulation_relaunch" value="4" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 5" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, simulation_relaunch" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, convert_to_binary.vhd], 2, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, convert_to_binary.vhd], 2, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files], 1, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, keyboard_top - keyboard_top_arch (keyboard_top.vhd" value="18" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 4, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 4, true, false, false, false, true, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Project Settings], 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
 <property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, counter[3:0] ; 0 ; Array, 6, counter[3:0], 0, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, data[10:0] ; UUU ; Array, 7, data[10:0], 0, true" value="2" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, edge_found ; 0 ; Logic, 2, edge_found, 0, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, scan_code_out[7:0] ; 00 ; Array, 5, scan_code_out[7:0], 0, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, serial_data ; 0 ; Logic, 3, serial_data, 0, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, convert_scancode_inst ; convert_scancode(convert_scancode_arch" value="5" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, edge_detector_inst ; edge_detector(edge_detector_arch" value="2" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, keyboard_ctrl_inst ; keyboard_ctrl(keyboard_ctrl_arch" value="2" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, keyboard_top_inst ; keyboard_top(keyboard_top_arch" value="4" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 40, -135" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, counter[3:0]], 13" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, counter[3:0]], 13, true" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, data[10:0], [10]], 11, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, data[10:0]], 10" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, data[10:0]], 25, true" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, edge_found], 10, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, scan_code_out[7:0]], 12" value="1" type="GuiResourceData"/>
-<property name="edge_detector.vhd, 162, 327" value="1" type="GuiResourceData"/>
-<property name="edge_detector.vhd, 398, 563" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 125, 520" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 128, 536" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 135, 539" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 153, 360" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 156, 553" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 156, 553, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 166, 486" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 166, 486, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 174, 519" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 174, 519, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 183, 82" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 183, 82, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 187, 336" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 220, 213" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 229, 502" value="2" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 230, 455" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 230, 455, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 230, 536" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 24, 553" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 241, 222" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 243, 452" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 251, 602" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 264, 77" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 264, 77, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 27, 313" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 28, 569" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 3, 449" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 30, 415" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 323, 535" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 327, 73" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 327, 73, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 329, 551" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 330, 552" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 336, 558" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 35, 569" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 49, 573" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 50, 363" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 527, 369" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 55, 427" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 56, 334" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 56, 402" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 62, 370" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 71, 399" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 71, 399, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 77, 539" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 83, 353" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 83, 383" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 85, 616" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 86, 550" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 87, 585" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 90, 401" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 97, 546" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 99, 488" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 99, 488, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="keyboard_ctrl.vhd, 99, 552" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Nexys4 ; digilentinc.com ; B.1 ; xc7a100tcsg324-1 ; 324 ; 1.1 ; 135 ; 240 ; 126800 ; 0 ; 0 ; 210 ; 63400 ; 6 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0 ; 0 ; 0 ; 0 ; 0, 0, Nexys4, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, project_2" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, 400" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, code_to_display[7:0] ; UU ; Array, 12, code_to_display[7:0], 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, current_state ; s_init ; Enumeration, 22, current_state, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, scan_code_in[7:0] ; 00 ; Array, 3, scan_code_in[7:0], 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, valid_code ; 0 ; Logic, 2, valid_code, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, binary_to_sg_inst ; binary_to_sg(binary_to_sg_arch" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, convert_scancode_inst ; convert_scancode(convert_scancode_arch" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, edge_detector_inst ; edge_detector(edge_detector_arch" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, keyboard_ctrl_inst ; keyboard_ctrl(keyboard_ctrl_arch" value="4" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, keyboard_top_inst ; keyboard_top(keyboard_top_arch" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, sync_keyboard_inst ; sync_keyboard(sync_keyboard_arch" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="6" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, Add" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, VHDLSourceFile_small ; 1 ; binary_to_sg.vhd ; \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2 ; xil_defaultlib ; Synthesis  Simulation ; \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2, 0, \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2, 3, false, false, false, true, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, VHDLSourceFile_small ; 1 ; binary_to_sg.vhd ; \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2 ; xil_defaultlib ; Synthesis  Simulation ; \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2, 0, \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2, 3, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, VHDLSourceFile_small ; 7 ; sync_keyboard.vhd ; \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2 ; xil_defaultlib ; Synthesis  Simulation ; \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2, 6, \\\\puma.student.lth.se\\ma4444sl-s\\Windows\\Desktop\\Lab 2, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="6" type="GuiResourceData"/>
+<property name="RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, Remove" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, Toggle Line Comments" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 335, 312, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 969, -149" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, code_to_display[7:0]], 16" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, current_state], 23, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, scan_code_in[7:0]], 7" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, tb_num[7:0]], 12" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, tb_num[7:0]], 8" value="3" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, tb_seg_en[3:0]], 13" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, tb_seg_en[3:0]], 17" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, valid_code], 22, false" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 113, 265" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 113, 265, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 115, 501" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 115, 501, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 12, 473" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 120, 535" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 120, 535, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 121, 468" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 121, 468, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 122, 368" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 122, 368, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 122, 399" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 122, 399, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 122, 436" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 122, 436, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 123, 331" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 123, 331, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 123, 467" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 123, 467, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 124, 339" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 124, 339, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 128, 293" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 128, 293, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 131, 216" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 131, 216, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 136, 279" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 136, 279, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 149, 210" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 149, 210, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 155, 282" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 155, 282, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 161, 285" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 203, 245" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 203, 245, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 366, 401" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 62, 452" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 68, 521, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 68, 522" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 70, 341" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 70, 341, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 71, 407" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 71, 407, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 71, 438, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 71, 439" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 75, 116" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 75, 116, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 79, 336" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 79, 336, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 79, 371, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 79, 469" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 79, 469, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 79, 555" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 79, 555, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 80, 371" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 80, 506" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 80, 506, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 87, 487" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 87, 487, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 87, 538" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 87, 538, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 89, 462" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 93, 96" value="1" type="GuiResourceData"/>
+<property name="binary_to_sg.vhd, 93, 96, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 1, 198" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 104, 520" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 105, 329" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 106, 359" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 108, 363" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 109, 359" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 110, 339" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 110, 349" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 112, 394" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 114, 379" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 119, 361" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 119, 388" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 121, 218" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 121, 218, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 121, 355" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 123, 214" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 123, 214, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 126, 358" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 127, 382" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 128, 336" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 142, 333" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 150, 370" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 164, 279" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 165, 333" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 166, 282" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 169, 383" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 171, 384" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 171, 384, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 178, 350" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 179, 383" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 179, 457" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 179, 457, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 179, 471" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 179, 471, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 182, 313" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 182, 313, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 182, 384" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 182, 435" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 182, 436, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 183, 250" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 183, 250, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 184, 420" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 184, 422, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 185, 386" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 185, 386, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 187, 399" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 187, 399, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 187, 547" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 188, 449" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 188, 516" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 189, 377" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 189, 419" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 189, 485" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 198, 281" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 202, 281" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 207, 365" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 207, 434" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 207, 484" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 207, 522" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 207, 555" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 208, 466" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 209, 398" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 210, 172" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 210, 174, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 210, 454" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 210, 539" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 212, 351" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 238, 265" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 240, 265" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 30, 376" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 35, 295" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 362, 113" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 401, 454" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 405, 450" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 435, 452" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 52, 231" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 52, 382" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 53, 428" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 55, 251" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 55, 264" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 55, 296" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 55, 383" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 55, 401" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 55, 410" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 56, 280" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 56, 314" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 56, 383" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 56, 404" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 57, 450" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 57, 466" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 57, 491" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 57, 517" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 58, 419" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 58, 432" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 58, 451" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 59, 227" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 62, 533" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 65, 432" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 74, 349, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 74, 350" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 77, 396" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 79, 397, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 90, 520" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 91, 522" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 95, 526" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 96, 502" value="1" type="GuiResourceData"/>
+<property name="convert_to_binary.vhd, 96, 521" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 130, 432, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 2, 230" value="1" type="GuiResourceData"/>
+<property name="keyboard_ctrl.vhd, 303, 329" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="9" type="GuiMode"/>
+<property name="GuiMode" value="1" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="4" type="TclMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
 </item>
 </section>
 </application>

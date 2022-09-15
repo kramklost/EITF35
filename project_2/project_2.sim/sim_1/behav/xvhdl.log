@@ -1,20 +1,18 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/edge_detector.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity edge_detector
 INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/keyboard_ctrl.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity keyboard_ctrl
-INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/convert_to_binary.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity convert_to_binary
 INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/binary_to_sg.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity binary_to_sg
 INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/sync_keyboard.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity sync_keyboard
 INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/convert_scancode.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity convert_scancode
-INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/keyboard_top.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity keyboard_top
+INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/edge_detector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity edge_detector
 INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/tb_pkg.vhd" into library xil_defaultlib
 WARNING: [VRFC 10-393] cannot access 'ramfile' from inside pure function 'getcodefromfile'. [//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/tb_pkg.vhd:46]
 WARNING: [VRFC 10-393] cannot access 'ramfile' from inside pure function 'getcodefromfile'. [//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/tb_pkg.vhd:42]
 WARNING: [VRFC 10-393] cannot access 'ramfile' from inside pure function 'getcodefromfile'. [//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/tb_pkg.vhd:51]
+INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/Lab 2/keyboard_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity keyboard_top
 INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Downloads/tb_keyboard.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity tb_keyboard
