@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "//puma.student.lth.se/ma4444sl-s/Windows/Desktop/vhdl/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Downloads/tb_ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_ALU
